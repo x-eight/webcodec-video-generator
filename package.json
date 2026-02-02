@@ -1,0 +1,54 @@
+{
+  "name": "webcodec-video-generator",
+  "version": "1.0.0",
+  "description": "Server-side video generation using node-webcodecs and fabric.js - Create videos programmatically with text and image clips",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "ts-node src/index.ts",
+    "example:basic": "ts-node examples/basic.ts",
+    "example:advanced": "ts-node examples/advanced.ts",
+    "test": "ts-node test.ts"
+  },
+  "keywords": [
+    "video",
+    "generation",
+    "webcodec",
+    "node-webcodecs",
+    "fabric",
+    "fabricjs",
+    "server-side",
+    "video-editing",
+    "canvas",
+    "mp4",
+    "video-processing"
+  ],
+  "author": "x-eight",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x-eight/webcodec-video-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/x-eight/webcodec-video-generator/issues"
+  },
+  "homepage": "https://github.com/x-eight/webcodec-video-generator#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@pproenca/node-webcodecs": "^0.1.1-alpha.8",
+    "canvas": "^3.2.1",
+    "fabric": "^7.1.0",
+    "install": "^0.13.0",
+    "mp4-muxer": "^5.2.2",
+    "node-webcodecs": "^1.0.0"
+  }
+}
